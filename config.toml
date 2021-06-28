@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://elixirgraildiary.com"
 languageCode = "en-us"
 title = "Elixir Grail Diary"
 theme = "cactus"
