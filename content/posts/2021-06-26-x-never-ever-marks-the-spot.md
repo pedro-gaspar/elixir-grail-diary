@@ -1,12 +1,9 @@
 ---
 title: X never ever marks the spot
-date: 2021-06-28
+date: 2021-06-26
+description: 'Transcript and notes from the awesome Will Shoder Youtube video on "How To Remember Everything You Learn"'
 tags:
   - Elixir
-category: tech
-keywords:
-  - Elixir
-  - Learning
 ---
 
 A couple months ago, scrolling in my Twitter feed, I came across a tweet from José Valim, the Brazilian developer rockstar 👨‍🎤 I greatly admire.

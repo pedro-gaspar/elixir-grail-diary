@@ -19,11 +19,6 @@ name = "Diary"
 url = "/posts"
 weight = 2
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
 [markup]
 
   [markup.tableOfContents]
@@ -38,11 +33,11 @@ weight = 3
   # googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
 
   # Home page settings
-  description = "<em>(Professor Henry Jones)</em> “Well, he who finds the Grail must face the final challenge.”<br/><em>(Harrison Ford)</em> “What final challenge?”<br/><em>(Professor Henry Jones)</em> “Three devices of such lethal cunning.”<br/><em>(Harrison Ford)</em> “Booby traps?”<br/><em>(Professor Henry Jones)</em> “Oh, yes. But I found the clues that will safely take us through them in the Chronicles of St. Anselm.”<br/><em>(Harrison Ford)</em> “Well, what are they?”<br/><em>(Harrison Ford)</em> “Can't you remember?”<br/><em>(Professor Henry Jones)</em> “I wrote them down in my diary so that I wouldn't have to remember.”"
+  description = "<em>(Prof. Jones)</em> “Well, he who finds the Grail must face the final challenge.”<br/><em>(Indiana)</em> “What final challenge?”<br/><em>(Prof. Jones)</em> “Three devices of such lethal cunning.”<br/><em>(Indiana)</em> “Booby traps?”<br/><em>(Prof. Jones)</em> “Oh, yes. But I found the clues that will safely take us through them in the Chronicles of St. Anselm.”<br/><em>(Indiana)</em> “Well, what are they?”<br/><em>(Indiana)</em> “Can't you remember?”<br/><em>(Prof. Jones)</em> “I wrote them down in my diary so that I wouldn't have to remember.”"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
-  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = true # show tags overview by default.
+  postsOnHomePage = 10 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = false # show tags overview by default.
   showProjectsList = false # show projects list by default (if projects data file exists).
   #projectsUrl = "https://github.com/gohugoio" # title link for projects list
 
@@ -51,7 +46,7 @@ weight = 3
 
   # Post page settings
   show_updated = false # default
-  showReadTime = false # default
+  showReadTime = true # default
 
   [params.comments]
     enabled = false # default
