@@ -90,7 +90,7 @@ It works 🤯 !!!
 
 Invoking from _alice_ computer executes the program in _bob_ node.
 
-Had to check the same example with two home computers.
+Had to check the same example with two home computers. 👌
 
 With the Phoenix Web Framework, it has a  Presence feature, which has a pub-sub mechanism in which you can send and receive messages from anybody connected from any machine. And you can know who is connected in the whole cluster (who is joining, who is leaving) without needing databases or third-party dependencies.
 
@@ -106,6 +106,6 @@ Chris McCord, the creator of the Phoenix Framework
 
 José Valim
 
-> If I try to centralize and do everything on my own, I won't be able to do it. But if everybody can contribute a small part to this and with everybody together, decentralized, can do that and bring the community forward. Then we have a chance of actually making a lasting impact.
+> If I try to centralize and do everything on my own, I won't be able to do it. But if everybody can contribute a small part to this and with everybody together, we can do that and bring the community forward. Then we have a chance of actually making a lasting impact.
 
 ![clap](https://media.giphy.com/media/a0Lgc1JvbfS4o/giphy.gif)
