@@ -7,7 +7,6 @@ tags:
   - Elixir
 ---
 
-
 {{< youtube lxYFOM3UJzo >}}
 
 Watched the documentary and stayed even more pumped up about the language.🤗
