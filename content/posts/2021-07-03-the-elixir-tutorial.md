@@ -1,6 +1,6 @@
 ---
 title: The Elixir Tutorial
-date: 2021-07-04
+date: 2021-07-03
 description: "Learn by teaching."
 tags:
   - Elixir
