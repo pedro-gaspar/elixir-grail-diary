@@ -1,13 +1,13 @@
 ---
 title: Installing Elixir in your local machine
-date: 2021-07-02
+date: 2021-07-04
 description: "ASDF FTW"
 tags:
   - Elixir
   - The Elixir Tutorial
 ---
 
-# for post <- 1..2, do: IO.puts "The Elixir Tutorial" 
+# for post <- 2..2, do: IO.puts "The Elixir Tutorial" 
 
 The first thing you need to start hacking with Elixir is ... well ... Elixir 😏.
 
