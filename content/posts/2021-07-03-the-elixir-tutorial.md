@@ -18,13 +18,11 @@ Richard Feynman is a known physicist that promoted the following learning techni
 
 ![](https://media.giphy.com/media/l2R06HpuWmc3pnBks/giphy.gif)
 
-Learn Elixir and put my knowledge to the test by teaching at the same time. 
+So I'm going to learn Elixir and put my knowledge to the test by teaching at the same time. 
 
 > Learning in the open.
 
-So I'm going to start a series of posts around building an application with Elixir.
-
-For that, we will try to build a blog brother app, **the grail-toolbox**.
+I'm going to start a series of posts around building an application with Elixir. For that, we will try to build a blog brother app, **the grail-toolbox**.
 
 It will be an app that will have the following features:
 
@@ -33,7 +31,7 @@ It will be an app that will have the following features:
 - create a JSON API with all recent tweets from José Valim
 - scrape posts from Dashbit, store a summarized version in a database to expose has a Graphql endpoint
 
-Let's learn and have fun 😎
+Let's learn and have fun. 😎
 
 Subject to changes along the way. 
 
