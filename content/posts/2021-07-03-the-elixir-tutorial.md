@@ -18,7 +18,7 @@ Richard Feynman is a known physicist that promoted the following learning techni
 
 ![](https://media.giphy.com/media/l2R06HpuWmc3pnBks/giphy.gif)
 
-So I'm going to learn Elixir and put my knowledge to the test by teaching at the same time. 
+So I'm learning Elixir and putting my knowledge to the test by teaching at the same time. 
 
 > Learning in the open.
 
@@ -37,7 +37,8 @@ Subject to changes along the way.
 
 ![](https://media.giphy.com/media/03L3XIy2uKaLE5TIfG/giphy.gif)
 
-# Posts
+# "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
 
-1..2 - > The Elixir Tutorial
+1..2 - > [The Elixir Tutorial](https://elixirgraildiary.com/posts/2021-07-03-the-elixir-tutorial/)
+
 2..2 - > [Installing Elixir in your local machine](https://elixirgraildiary.com/posts/2021-07-02-elixir-tutorial-install-elixir/)

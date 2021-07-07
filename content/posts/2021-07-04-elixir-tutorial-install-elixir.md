@@ -144,3 +144,10 @@ Elixir 1.12.1 (compiled with Erlang/OTP 24)
 ## 9. Have fun
 
 ![](https://media.giphy.com/media/43wsmkuWDuNQX78KwS/giphy.gif)
+
+
+# "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
+
+1..2 - > [The Elixir Tutorial](https://elixirgraildiary.com/posts/2021-07-03-the-elixir-tutorial/)
+
+2..2 - > [Installing Elixir in your local machine](https://elixirgraildiary.com/posts/2021-07-02-elixir-tutorial-install-elixir/)
