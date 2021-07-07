@@ -13,7 +13,7 @@ I really 😍 Elixir. Up until a week ago, it was an old passion that I had, but
 
 > Passion without action remains a dream
 
-This quote is damn perfect. Indeed I wasn't passionate about Elixir. It was just a dream. 
+This quote is damn perfect. Indeed I wasn't passionate about Elixir. It was just a dream.
 Even though dreaming is fantastic, especially if you are a parent, you end up waking to reality and feeling sad about it.
 Time to REALLY learn Elixir!
 
@@ -25,33 +25,35 @@ To reach the **Holy Grail of Elixir** I need to slowly find clues and build a ma
 
 ## I - Elixir & OTP
 
-🛠 Started watching and practicing with [Pragmatic Studio Elixir & OTP](https://pragmaticstudio.com/elixir#buy).
+~~Started watching and practicing with [Pragmatic Studio Elixir & OTP](https://pragmaticstudio.com/elixir#buy).~~ (Done 🥳)
 
 ## II - Exercism
 
-🛠 Doing a couple of exercises a day on the Exercism [Elixir track](https://exercism.io)
+Doing a couple of exercises a day on the Exercism [Elixir track](https://exercism.io) (Doing 🤓)
 
-## III - Programming Phoenix 1.4
+## III - The coding gnome
+
+Started watching and practicing with [The coding gnome](https://codestool.coding-gnome.com/) (Doing 🤓)
+
+## IV - Programming Phoenix 1.4
 
 [Programming Phoenix 1.4](https://pragprog.com/book/phoenix14/programming-phoenix-1-4)
 
-## IV - Phoenix LiveView
+## V - Phoenix LiveView
 
 [Phoenix LiveView](https://pragmaticstudio.com/phoenix-liveview)
 
-## V - First challenge eliXly
+## VI - First challenge eliXly
 
 Build and deploy a bitly clone.
 
-## VI - Second challenge eliXlack
+## VII - Second challenge eliXlack
 
 Build a slack clone where messages take a random amount of time to appear.
 
-## VII - Mastering Elixir
+## VIII - Mastering Elixir
 
 [Mastering Elixir](https://www.packtpub.com/eu/application-development/mastering-elixir)
-
-
 
 ![](https://media.giphy.com/media/3oGRFk2HxfUF4iX3wI/giphy.gif)
 
@@ -67,7 +69,7 @@ Build a slack clone where messages take a random amount of time to appear.
 
 ## Videos
 
-- [Elixir camp](https://www.youtube.com/channel/UCp5Nix6mJCoLkH_GqcRRp1A)
+- [Alchemist Camp](https://www.youtube.com/channel/UCp5Nix6mJCoLkH_GqcRRp1A)
 - [Elixir casts](https://elixircasts.io/)
 
 ## Books

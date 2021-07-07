@@ -1,11 +1,13 @@
 ---
 title: Installing Elixir in your local machine
 date: 2021-07-02
-description: 'ASDF FTW'
+description: "ASDF FTW"
 tags:
   - Elixir
-  - Elixir Tutorial
+  - The Elixir Tutorial
 ---
+
+# for post <- 1..2, do: IO.puts "The Elixir Tutorial" 
 
 The first thing you need to start hacking with Elixir is ... well ... Elixir 😏.
 
@@ -13,9 +15,9 @@ If you want to install it on your local machine, there are plenty of options. Yo
 
 I prefer to use a version manager, similar to _rvm_ or _nvm_.
 
-Because of Elixir, I came across **[asdf](https://asdf-vm.com/#/)**, and it is awesome 🤯. 
+Because of Elixir, I came across **[asdf](https://asdf-vm.com/#/)**, and it is awesome 🤯.
 
-It's the last version manager you will ever need. 
+It's the last version manager you will ever need.
 
 That's because you use the same version manager for different languages. You usually will also need node.js installed anyways. Or even a Postgres database.
 
@@ -23,13 +25,13 @@ You can set up everything in one place. And you can even have different versions
 
 To install it, just follow the [instructions](https://asdf-vm.com/#/core-manage-asdf). In my case, I'll be installing in a Ubuntu machine, but the steps are pretty similar for Mac, except installing the required dependencies.
 
-# 1. Install git
+## 1. Install git
 
 ```sh
 $ sudo apt install curl git
 ```
 
-# 2. Clone the asdf repo
+## 2. Clone the asdf repo
 
 ```sh
 $ git clone https://github.com/asdf-vm/asdf.git ~/.asdf
@@ -37,7 +39,7 @@ $ cd ~/.asdf
 $ git checkout "$(git describe --abbrev=0 --tags)"
 ```
 
-# 3. Add to your shell
+## 3. Add to your shell
 
 In my case to `.zshrc`, append the following line:
 
@@ -45,25 +47,24 @@ In my case to `.zshrc`, append the following line:
 . $HOME/.asdf/asdf.sh
 ```
 
-# 4. Enable completions
+## 4. Enable completions
 
-In `.zshrc` include the *asdf* plugin to enable completions:
+In `.zshrc` include the _asdf_ plugin to enable completions:
 
 ```sh
 plugins=(
   asdf
   git
 )
-
 ```
 
-# 5. Reload the shell
+## 5. Reload the shell
 
 ```sh
 $ source ~/.zshrc
 ```
 
-# 6. Install Erlang
+## 6. Install Erlang
 
 You have a list of [available plugins](https://asdf-vm.com/#/plugins-all), with instructions on installing required dependencies for a specific language.
 
@@ -78,6 +79,7 @@ Then you install the plugin:
 ```sh
 $ asdf plugin add erlang
 ```
+
 Now you can query for all available versions you can install:
 
 ```sh
@@ -102,7 +104,7 @@ Or inside a directory, mark a specific version inside it:
 $ asdf local erlang 24.0.2
 ```
 
-# 7. Install Elixir
+## 7. Install Elixir
 
 The steps are pretty similar to erlang, as with any other language.
 
@@ -111,6 +113,7 @@ You don't need to install any additional system dependency, so you first add the
 ```sh
 $ asdf plugin add elixir
 ```
+
 Now you can query for all available versions:
 
 ```sh
@@ -129,7 +132,7 @@ Then you can set it as the global version used in your system:
 $ asdf global elixir 1.12.1
 ```
 
-# 8. Test it
+## 8. Test it
 
 ```sh
 $ elixir -v
@@ -138,6 +141,6 @@ Erlang/OTP 24 [erts-12.0.2] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-t
 Elixir 1.12.1 (compiled with Erlang/OTP 24)
 ```
 
-# 9. Have fun
+## 9. Have fun
 
 ![](https://media.giphy.com/media/43wsmkuWDuNQX78KwS/giphy.gif)
