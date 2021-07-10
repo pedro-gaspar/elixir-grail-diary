@@ -7,7 +7,7 @@ tags:
   - The Elixir Tutorial
 ---
 
-# for post <- 2..2, do: IO.puts "The Elixir Tutorial" 
+# for post <- 2..3, do: IO.puts "The Elixir Tutorial" 
 
 The first thing you need to start hacking with Elixir is ... well ... Elixir 😏.
 
@@ -148,6 +148,8 @@ Elixir 1.12.1 (compiled with Erlang/OTP 24)
 
 # "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
 
-1..2 - > [The Elixir Tutorial](https://elixirgraildiary.com/posts/2021-07-03-the-elixir-tutorial/)
+1..3 - > [The Elixir Tutorial](https://elixirgraildiary.com/posts/2021-07-03-the-elixir-tutorial/)
 
-2..2 - > [Installing Elixir in your local machine](https://elixirgraildiary.com/posts/2021-07-02-elixir-tutorial-install-elixir/)
+2..3 - > [Installing Elixir in your local machine](https://elixirgraildiary.com/posts/2021-07-02-elixir-tutorial-install-elixir/)
+
+3..3 - > [You don't need to install Elixir](https://elixirgraildiary.com/posts/2021-07-05-elixir-tutorial-elixir-in-a-box/)
