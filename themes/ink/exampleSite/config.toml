@@ -1,25 +1,23 @@
-baseURL = "https://elixirgraildiary.com"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Elixir Grail Diary"
+title = "Ink"
 theme = "ink"
-paginate = 25
-summaryLength = 50
+paginate = 5
 
-copyright = "© Copy as I write"
+copyright = "© Copyright notice"
 
-pygmentsstyle = "monokai"
+pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = "G-9ESSW7QXWF"
-# disqusShortname = "ink-demo"
+googleAnalytics = "UA-123-45"
+disqusShortname = "ink-demo"
 
 [params]
-  favicon = "/images/favicon.ico"
-	subtitle = "“I wrote them down in my diary so that I wouldn't have to remember.”"
+	subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
 
 	# Optional 64x64 avatar image.
-	avatar = "/images/logo.png"
+	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
@@ -53,14 +51,14 @@ url = "/tags"
 weight = 4
 
 [[params.social]]
-  name = "github"
-  icon = "github"
-  link = "https://github.com/pedro-gaspar"
+name = "Github"
+icon = "github"
+url = "https://github.com/knadh/hugo-ink"
 
 [[params.social]]
-  name = "RSS"
-  icon = "rss"
-  url = "/index.xml"
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
 
 [taxonomies]
    tag = "tags"

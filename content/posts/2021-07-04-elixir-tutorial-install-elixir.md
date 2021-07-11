@@ -148,10 +148,10 @@ Elixir 1.12.1 (compiled with Erlang/OTP 24)
 
 # "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
 
-1..4 - > [The Elixir Tutorial](/posts/2021-07-03-the-elixir-tutorial/)
+1..4 -> [The Elixir Tutorial](/posts/2021-07-03-the-elixir-tutorial/)
 
-2..4 - > [Installing Elixir in your local machine](/posts/2021-07-04-elixir-tutorial-install-elixir/)
+2..4 -> [Installing Elixir in your local machine](/posts/2021-07-04-elixir-tutorial-install-elixir/)
 
-3..4 - > [You don't need to install Elixir](/posts/2021-07-05-elixir-tutorial-elixir-in-a-box/)
+3..4 -> [You don't need to install Elixir](/posts/2021-07-05-elixir-tutorial-elixir-in-a-box/)
 
-4..4 - > [Running Elixir](/posts/2021-07-06-elixir-tutorial-running-elixir/)
+4..4 -> [Running Elixir](/posts/2021-07-06-elixir-tutorial-running-elixir/)
