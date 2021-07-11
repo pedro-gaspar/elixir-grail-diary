@@ -7,7 +7,7 @@ tags:
   - The Elixir Tutorial
 ---
 
-# for post <- 3..3, do: IO.puts "The Elixir Tutorial" 
+# for post <- 3..4, do: IO.puts "The Elixir Tutorial" 
 
 ![](https://media.giphy.com/media/6AFldi5xJQYIo/giphy.gif)
 
@@ -70,8 +70,10 @@ For reference: [Development environment for Elixir + Phoenix with Docker and Doc
 
 # "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
 
-1..3 - > [The Elixir Tutorial](https://elixirgraildiary.com/posts/2021-07-03-the-elixir-tutorial/)
+1..4 - > [The Elixir Tutorial](/posts/2021-07-03-the-elixir-tutorial/)
 
-2..3 - > [Installing Elixir in your local machine](https://elixirgraildiary.com/posts/2021-07-04-elixir-tutorial-install-elixir/)
+2..4 - > [Installing Elixir in your local machine](/posts/2021-07-04-elixir-tutorial-install-elixir/)
 
-3..3 - > [You don't need to install Elixir](https://elixirgraildiary.com/posts/2021-07-05-elixir-tutorial-elixir-in-a-box/)
+3..4 - > [You don't need to install Elixir](/posts/2021-07-05-elixir-tutorial-elixir-in-a-box/)
+
+4..4 - > [Running Elixir](/posts/2021-07-06-elixir-tutorial-running-elixir/)
