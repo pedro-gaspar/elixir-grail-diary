@@ -33,7 +33,7 @@ Doing a couple of exercises a day on the Exercism [Elixir track](https://exercis
 
 ## III - The coding gnome
 
-Started watching and practicing with [The coding gnome](https://codestool.coding-gnome.com/) (Doing 🤓)
+~~Started watching and practicing with [The coding gnome](https://codestool.coding-gnome.com/)~~ (Done 🥳)
 
 ## IV - Programming Phoenix 1.4
 
