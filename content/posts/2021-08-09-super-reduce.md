@@ -77,13 +77,13 @@ Well, let's do the same that the previous specialized functions did, but using o
 ```elixir
 list = [1, 2, 3]
 
-HumbleEnum.enum(list, fn n -> n * 2 end)
+HumbleEnum.map(list, fn n -> n * 2 end)
 [2, 4, 6]
 
-HumbleEnum.enum(list, fn n -> n * 3 end)
+HumbleEnum.map(list, fn n -> n * 3 end)
 [3, 6, 9]
 
-HumbleEnum.enum(list, fn n -> div(n, 2) == 0 end)
+HumbleEnum.map(list, fn n -> div(n, 2) == 0 end)
 [true, false, false]
 ```
 
@@ -263,6 +263,8 @@ reduce_right([1,2,3], acc, f) = f(1, f(2, f(3, acc)))
 ![](https://media.giphy.com/media/z7eor89n5Qv60/giphy.gif)
 
 Mindblown, right? Let's build a **reduce_right** and change our **map**.
+
+# map _reduce_ version v3
 
 ```elixir
 defmodule HumbleEnum do
