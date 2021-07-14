@@ -3,7 +3,7 @@ title: Installing Elixir in your local machine
 date: 2021-07-04
 description: "ASDF FTW"
 images:
-- images/featured/elixir-tutorial-install-elixir.jpeg
+- images/featured/elixir-tutorial-install-elixir.png
 tags:
   - Elixir
   - The Elixir Tutorial
