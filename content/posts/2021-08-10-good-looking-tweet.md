@@ -49,6 +49,8 @@ tags:
 
 Well, that was easy. 😅 
 
+You can check the look and feel of your tweet using this [card validador](https://cards-dev.twitter.com/validator).
+
 Once again, a reminder to my future self, from Confucius:
 
 > If a craftsman wants to do good work, he must first sharpen his tools.
