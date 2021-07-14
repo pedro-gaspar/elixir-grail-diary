@@ -3,7 +3,7 @@ title: X never ever marks the spot
 date: 2021-06-26
 description: 'Starting the path to re-learn Elixir'
 images:
-- images/featured/2021-06-26-x-never-ever-marks-the-spot
+- images/featured/x-never-ever-marks-the-spot.png
 tags:
   - Elixir
 ---
