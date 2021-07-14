@@ -2,6 +2,8 @@
 title: Super reduce
 date: 2021-07-09
 description: "A function that gives you superpowers."
+images:
+- images/featured/super-reduce.png
 tags:
   - Elixir
 ---

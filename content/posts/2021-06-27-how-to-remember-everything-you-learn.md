@@ -2,6 +2,8 @@
 title: How To Remember Everything You Learn
 date: 2021-06-27
 description: 'Transcript and notes from the awesome Will Shoder Youtube video on "How To Remember Everything You Learn"'
+images:
+- images/featured/how-to-remember-everything-you-learn.png
 tags:
   - Learning
 ---

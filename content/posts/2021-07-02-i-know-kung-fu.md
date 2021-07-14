@@ -2,6 +2,8 @@
 title: I know kung fu
 date: 2021-07-02
 description: "Finished Pragmatic Studio Elixir & OTP course"
+images:
+- images/featured/twitter.jpeg
 tags:
   - Learning
   - Elixir

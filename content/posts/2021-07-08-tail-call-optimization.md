@@ -2,6 +2,8 @@
 title: Should I always use tail recursion?
 date: 2021-07-08
 description: "The short answer is the dreaded ... it depends."
+images:
+- images/featured/tail-call-optimization.png
 tags:
   - Elixir
 ---

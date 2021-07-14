@@ -2,6 +2,8 @@
 title: Running Elixir
 date: 2021-07-06
 description: "Different ways of running Elixir"
+images:
+- images/featured/elixir-tutorial-running-elixir.png
 tags:
   - Elixir
   - The Elixir Tutorial

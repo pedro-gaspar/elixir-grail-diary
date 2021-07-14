@@ -2,6 +2,8 @@
 title: Elixir in a box
 date: 2021-07-05
 description: "You don't need to install Elixir"
+images:
+- images/featured/elixir-tutorial-elixir-in-a-box.png
 tags:
   - Elixir
   - The Elixir Tutorial

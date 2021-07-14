@@ -3,7 +3,7 @@ title: Good looking tweet
 date: 2021-07-10
 description: "Make your blog posts look better on Twitter."
 images:
-- images/twitter.jpeg
+- images/featured/twitter.jpeg
 tags:
   - Hugo
   - Twitter

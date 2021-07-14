@@ -2,6 +2,8 @@
 title: Pedro and the Last Crusade
 date: 2021-06-30
 description: "Quest to find the Holy Grail of Elixir"
+images:
+- images/featured/pedro-and-the-last-crusade.png
 tags:
   - Learning
   - Elixir

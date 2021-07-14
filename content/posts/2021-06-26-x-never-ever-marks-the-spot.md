@@ -1,7 +1,9 @@
 ---
 title: X never ever marks the spot
 date: 2021-06-26
-description: 'Transcript and notes from the awesome Will Shoder Youtube video on "How To Remember Everything You Learn"'
+description: 'Starting the path to re-learn Elixir'
+images:
+- images/featured/2021-06-26-x-never-ever-marks-the-spot
 tags:
   - Elixir
 ---

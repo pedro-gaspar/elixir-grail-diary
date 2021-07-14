@@ -2,6 +2,8 @@
 title: Enable history in iex
 date: 2021-06-28
 description: 'This is handy.'
+images:
+- images/featured/enable-history-in-iex.png
 tags:
   - Elixir
 ---

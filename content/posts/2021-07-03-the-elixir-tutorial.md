@@ -2,6 +2,8 @@
 title: The Elixir Tutorial
 date: 2021-07-03
 description: "Learn by teaching."
+images:
+- images/featured/twitter.jpeg
 tags:
   - Elixir
   - The Elixir Tutorial
