@@ -3,7 +3,7 @@ title: Elixir, the documentary
 date: 2021-07-01
 description: "Learn the origins of the Elixir programming language..."
 images:
-- images/featured/the-elixir-tutorial.png
+- images/featured/elixir-the-documentary.png
 tags:
   - Learning
   - Elixir
