@@ -40,7 +40,7 @@ title: Good looking tweet
 date: 2021-07-10
 description: "Make your blog posts look better on Twitter."
 images:
-- twitter.png
+- images/twitter.jpeg
 tags:
   - Hugo
   - Twitter
@@ -53,6 +53,6 @@ Once again, a reminder to my future self, from Confucius:
 
 > If a craftsman wants to do good work, he must first sharpen his tools.
 
-{{< tweet 1415067244900532227 >}}
+{{< tweet 1415218957213216768 >}}
 
 Looking a lot better now 🤩
