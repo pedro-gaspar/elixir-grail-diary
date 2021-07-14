@@ -2,6 +2,8 @@
 title: Quacks like a list, but it's not a list
 date: 2021-07-07
 description: 'This will happen someday'
+images:
+- https://media.giphy.com/media/12rqBPpSz9jIA0/giphy.gif
 tags:
   - Elixir
   - Today I Learned
