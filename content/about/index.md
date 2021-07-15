@@ -25,9 +25,9 @@ Sleeping nowadays is my main hobby. Being a father takes you years of sleep, so 
 
 🏠 I live in a small town near Oporto, Portugal, called Penafiel.
 
-👷 I work at Beyond Pricing with a bunch of great people, helping to build the best tool for Vacation Rental in the whole world and nearby planets.
+👷 I work at Beyond Pricing, with a bunch of great people, helping to build the best tool for Vacation Rental in the whole world and nearby planets.
 
-🚀 Learning and writing about Elixir during the night
+🚀 I'm currently learning and writing about Elixir during the night
 
 --- 
 
