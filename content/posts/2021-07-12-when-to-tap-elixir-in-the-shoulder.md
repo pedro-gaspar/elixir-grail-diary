@@ -168,7 +168,7 @@ defmodule Starwars do
   def fans(persons) do
       persons
       |> Enum.reject(&(&1.favourite_movie == "Star Trek"))
-      |> Enum.tap(& IO.puts(&1.likes_yoda))
+      |> Enum.map(fn p -> tap(p, & IO.puts(&1.likes_yoda)) end)
       |> Enum.filter(& &1.likes_yoda)
       |> Enum.count()
       |> then(& {:ok, &1, Enum.count(persons)})
