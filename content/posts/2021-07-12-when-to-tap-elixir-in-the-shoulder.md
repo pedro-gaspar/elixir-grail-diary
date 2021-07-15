@@ -3,7 +3,7 @@ title: When to tap Elixir in the shoulder
 date: 2021-07-12
 description: 'Whenever you can, there is no try.'
 images:
-- images/featured/baby-yoda.jpg
+- images/featured/baby-yoda.png
 tags:
   - Elixir
 ---
