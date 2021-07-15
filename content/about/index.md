@@ -17,9 +17,9 @@ I'm a Software Engineer by trade, and especially by heart ♥.  I've got the tra
 
 I've been around planet Earth for quite some time now. 
 
-I'm the father of two small 👧👧 that I'm trying to help grow and me amazing humans. Married to the best wife in the galaxy 🌕.
+I'm the father of two small 👧👧 that I'm trying to help grow and become amazing human beings. Married to the best wife in the galaxy 🌕.
 
-Sleeping nowadays is my main hobby. Being a father takes you years of sleep, so you have to catch up. 😴
+😴 Sleeping nowadays is my main hobby. Being a father takes you years of sleep, so you have to catch up.
 
 👨‍🎓 I studied Electrical Engineering and Computers in the Faculdade de Engenharia da Universidade do Porto, in the beautiful city of Oporto, Portugal. 
 
