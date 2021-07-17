@@ -2,8 +2,9 @@
 title: Avoid elixir booby traps
 date: 2021-07-14
 description: 'Coming from an object-oriented background, you will fall into some Elixir booby traps.'
-tags:images:
-- images/featured/booby-traps.png
+images:
+- images/featured/traps.png
+tags:
   - Elixir
 ---
 
