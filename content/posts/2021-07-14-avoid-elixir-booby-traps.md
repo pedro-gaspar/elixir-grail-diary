@@ -372,7 +372,7 @@ iex(15)> looks_like_a_python_dict["y"] = 1
 
 This is not an array and not and object. 
 
-But you the right way to do this in Elixir:
+But there's the right way to do this in Elixir:
 
 ```elixir
 iex(2)> looks_like_a_python_dict = %{x: "1"}
