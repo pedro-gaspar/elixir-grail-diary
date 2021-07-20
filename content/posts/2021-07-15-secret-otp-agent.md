@@ -57,7 +57,7 @@ Agent.update(pid, fn digits -> digits ++ ["4"] end)
 
 ![](https://media.giphy.com/media/1gRtl9mdLQvvvOfR9u/giphy.gif)
 
-Let's build our own secret agency, OoohTP, and reverse engineer Agent to build our own **SecretAgent**. We will use the basic functions to handle processes in Elixir, namely ***spawn_link**, **send**, and **receive**.
+Let's build our own secret agency, OoohTP, and reverse engineer Agent to build our own **SecretAgent**. We will use the basic functions to handle processes in Elixir, namely **spawn_link**, **send**, and **receive**.
 
 First, we need to create the SecretAgent 
 
