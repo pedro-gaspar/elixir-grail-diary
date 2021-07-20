@@ -46,7 +46,7 @@ Anonymous functions are used to build, get and update state:
 **To get the current version of state**
 
 ```elixir
-{:ok, pid} = Agent.start_link(fn -> [] end)
+Agent.get(pid, fn digits -> digits end)
 ```
 
 **To update the state**
