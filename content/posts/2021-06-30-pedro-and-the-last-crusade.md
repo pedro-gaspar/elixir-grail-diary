@@ -31,31 +31,34 @@ To reach the **Holy Grail of Elixir** I need to slowly find clues and build a ma
 
 ## II - Exercism
 
-Doing a couple of exercises a day on the Exercism [Elixir track](https://exercism.io) (Doing 🤓)
+Doing a couple of exercises a day on the Exercism [Elixir track](https://exercism.io)  - 85% main track, 51/81 side exercises(Doing 🤓)
 
-## III - The coding gnome
+## III - Elixir Grail Diary
+
+Write 2/3 blog posts to learn in the open by sharing while you learn. (Doing 🤓)
+## IV - The coding gnome
 
 ~~Started watching and practicing with [The coding gnome](https://codestool.coding-gnome.com/)~~ (Done 🥳)
 
-## IV - Programming Phoenix 1.4
+## V - Programming Phoenix 1.4
 
-[Programming Phoenix 1.4](https://pragprog.com/book/phoenix14/programming-phoenix-1-4)
+[Programming Phoenix 1.4](https://pragprog.com/book/phoenix14/programming-phoenix-1-4) (Doing 🤓)
 
-## V - Phoenix LiveView
+## VI - Mastering Elixir
+
+[Mastering Elixir](https://www.packtpub.com/eu/application-development/mastering-elixir)
+
+## VII - Phoenix LiveView
 
 [Phoenix LiveView](https://pragmaticstudio.com/phoenix-liveview)
 
-## VI - First challenge eliXly
+## VIII - Clone wars -> eliXly
 
 Build and deploy a bitly clone.
 
-## VII - Second challenge eliXlack
+## IX - Clone wars -> eliXlack
 
 Build a slack clone where messages take a random amount of time to appear.
-
-## VIII - Mastering Elixir
-
-[Mastering Elixir](https://www.packtpub.com/eu/application-development/mastering-elixir)
 
 ![](https://media.giphy.com/media/3oGRFk2HxfUF4iX3wI/giphy.gif)
 
