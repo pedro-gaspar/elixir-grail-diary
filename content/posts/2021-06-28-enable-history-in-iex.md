@@ -1,16 +1,17 @@
 ---
 title: Enable history in iex
 date: 2021-06-28
-description: 'This is handy.'
+description: "It\'s pretty handy to get shell history in iex."
 images:
 - images/featured/enable-history-in-iex.png
 tags:
+  - iex
   - Elixir
 ---
 
 After spending some time in `iex`, you want to run a past command, especially from previous sessions.
 
-Being used to `irb` or `ipython`, you hit the up arrow, and nothing happens...
+Being used to `irb` or `ipython`, you are used to hitting the up arrow. But, and nothing happens...
 
 ![](https://media.giphy.com/media/oziNormWuA6JrnbzY8/giphy.gif)
 
@@ -22,4 +23,8 @@ For that to work, add the following to your `.zshrc` or `.bashrc`
 export ERL_AFLAGS="-kernel shell_history enabled"
 ```
 
-Stackoverflow [link](https://stackoverflow.com/questions/45405070/how-do-i-save-iex-history) for reference.
+And since the default history size is _512KB_, let's increase it.
+
+```sh
+export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_bytes 1024000"
+```
