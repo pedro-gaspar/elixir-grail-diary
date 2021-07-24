@@ -5,7 +5,7 @@ description: "The short answer is the dreaded ... it depends."
 images:
 - images/featured/tail-call-optimization.png
 tags:
-  - Elixir
+  - elixir
 ---
 
 While trying to implement my own version of `map` for an Exercism exercise, I've come across a doubt that should trouble the Elixir newbie.
@@ -79,7 +79,7 @@ iex(3)> BenchmarkRecursion.map(list, double_it)
  72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, ...]
 ```
 
-# mapping with tail call recursion
+## Mapping with tail call recursion
 
 Now let's do the same map function but with tail call optimization. 
 

@@ -5,7 +5,7 @@ description: 'Whenever you can, there is no try.'
 images:
 - images/featured/baby-yoda.png
 tags:
-  - Elixir
+  - elixir
 ---
 
 ![](https://media.giphy.com/media/f9jfbOcTBLBAFXIABe/giphy.gif)
@@ -71,7 +71,7 @@ Meeh, I just wanted to check the `likes_yoda value, but I'm getting everything..
 
 ![](https://media.giphy.com/media/WkOAurEV1T42tCq5VF/giphy.gif)
 
-# The old way(s)
+## The old way(s)
 
 Let's try to fix these two issues the old way. Well, it was the way I knew. 😅
 
@@ -157,7 +157,7 @@ That prints only the part of data that I wanted to check, the persons that like 
 
 ![](https://media.giphy.com/media/3jVlAzkbvVRfRPsThL/giphy.gif)
 
-# The new way
+## The new way
 
 Elixir grows and improves to better fit common use cases. For example, in version 1.12, we got some goodies called **`tap`** and **`then`**.
 

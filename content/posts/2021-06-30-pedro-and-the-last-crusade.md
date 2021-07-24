@@ -5,8 +5,8 @@ description: "Quest to find the Holy Grail of Elixir"
 images:
 - images/featured/pedro-and-the-last-crusade.png
 tags:
-  - Learning
-  - Elixir
+  - learning
+  - elixir
 ---
 
 {{< youtube 3MdecIbg_xM >}}
@@ -21,50 +21,50 @@ Time to REALLY learn Elixir!
 
 To reach the **Holy Grail of Elixir** I need to slowly find clues and build a map that will guide me in my journey.
 
-# The map
+## The map
 
 > _Prof. Jones_ "There is more in the diary than JUST the map."
 
-## I - Elixir & OTP
+### I - Elixir & OTP
 
 ~~Started watching and practicing with [Pragmatic Studio Elixir & OTP](https://pragmaticstudio.com/elixir#buy).~~ (Done 🥳)
 
-## II - Exercism
+### II - Exercism
 
 Doing a couple of exercises a day on the Exercism [Elixir track](https://exercism.io)  - 85% main track, 51/81 side exercises(Doing 🤓)
 
-## III - Elixir Grail Diary
+### III - Elixir Grail Diary
 
 Write 2/3 blog posts to learn in the open by sharing while you learn. (Doing 🤓)
-## IV - The coding gnome
+### IV - The coding gnome
 
 ~~Started watching and practicing with [The coding gnome](https://codestool.coding-gnome.com/)~~ (Done 🥳)
 
-## V - Programming Phoenix 1.4
+### V - Programming Phoenix 1.4
 
 [Programming Phoenix 1.4](https://pragprog.com/book/phoenix14/programming-phoenix-1-4) (Doing 🤓)
 
-## VI - Mastering Elixir
+### VI - Mastering Elixir
 
 [Mastering Elixir](https://www.packtpub.com/eu/application-development/mastering-elixir)
 
-## VII - Phoenix LiveView
+### VII - Phoenix LiveView
 
 [Phoenix LiveView](https://pragmaticstudio.com/phoenix-liveview)
 
-## VIII - Clone wars -> eliXly
+### VIII - Clone wars -> eliXly
 
 Build and deploy a bitly clone.
 
-## IX - Clone wars -> eliXlack
+### IX - Clone wars -> eliXlack
 
 Build a slack clone where messages take a random amount of time to appear.
 
 ![](https://media.giphy.com/media/3oGRFk2HxfUF4iX3wI/giphy.gif)
 
-# Resources
+## Resources
 
-## Articles
+### Articles
 
 - [Starting with Elixir, the Study Guide](http://blog.plataformatec.com.br/2018/11/starting-with-elixir-the-study-guide/)
 - [What is your recommended order of reading Elixir books in 2019?](https://elixirforum.com/t/what-is-your-recommended-order-of-reading-elixir-books-in-2019/24695)
@@ -72,12 +72,12 @@ Build a slack clone where messages take a random amount of time to appear.
 - [Learn x in y](https://learnxinyminutes.com/docs/elixir/)
 - [Elixir Introduction](https://elixir-lang.org/getting-started/introduction.html)
 
-## Videos
+### Videos
 
 - [Alchemist Camp](https://www.youtube.com/channel/UCp5Nix6mJCoLkH_GqcRRp1A)
 - [Elixir casts](https://elixircasts.io/)
 
-## Books
+### Books
 
 - [Mastering Elixir](https://www.packtpub.com/eu/application-development/mastering-elixir)
 - [Programming Phoenix 1.4](https://pragprog.com/book/phoenix14/programming-phoenix-1-4)

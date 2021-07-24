@@ -5,7 +5,7 @@ description: 'Transcript and notes from the awesome Will Shoder Youtube video on
 images:
 - images/featured/how-to-remember-everything-you-learn.png
 tags:
-  - Learning
+  - learning
 ---
 
 A few months ago I ran into this awesome video that made me think a lot about how I've been learning for the past decade.
@@ -72,7 +72,7 @@ One of the many reasons why people have trouble explaining videos, books or arti
 
 It's worth then understanding how memory works.
 
-# How memory works
+## How memory works
 
 There are two main parts, **short-term** and **long-term memory**.
 
@@ -96,7 +96,7 @@ Our current culture makes this process challenging. We're blasted with new stimu
 
 > "As we reach the limits of our working memory, it becomes harder to distinguish relevant information from irrelevant information, signal from noise. We become mindless consumers od data."
 
-# Multitasking
+## Multitasking
 
 But it's not just information overload that affects our ability to remember things.
 
@@ -117,13 +117,13 @@ There aren't a lot of methods that help commit things to long-term memory, and I
 2. Feynman Technique
 3. Spaced Repetition
 
-# Recall
+## Recall
 
 After you've read or watched any material, simply look away and see what you can recall from the material you've just taken in. In one experiment, students who studied a text and then practiced it by recalling as much information as they could and repeated that process learned far more than their peers who either went on to something else or reread the text over and over again.
 
 Practicing recall is counterintuitive to most consumers of content. You finish a chapter and go to the next one, or you finish a video and move on to something else. But spending as little as 30 seconds after finishing a chapter or video and recalling its key points vastly improves your understanding of a topic and commitment of it to long-term memory.
 
-# Feynman Technique
+## Feynman Technique
 
 Then there's the Feynman technique. World-renowned physicist and teacher Richard Feynman codified this method of learning.
 It's probably best if you want to understand something, but it's also the most work-intensive.
@@ -138,7 +138,7 @@ Analogies connect complex ideas to something more relatable, making it easier to
 
 I used it earlier, understanding and intelligence are like an investment portfolio. It gains compound interest as complex schemas connect with each other. And the other, working memory acts like a bottleneck to long-term memory.
 
-# Spaced Repetition
+## Spaced Repetition
 
 And finally, there's spaced repetition. LeBron James has undoubtedly put in tens of thousands of hours shooting hoops over many years. The Beatles practiced music for years before they became masters of the craft.
 
@@ -199,7 +199,7 @@ What's on trial is not just the weight of our opinions, but our entire understan
 
 ---
 
-# Personal notes
+## Personal notes
 
 - *The person who says he knows what he thinks but cannot express it usually does not know what he thinks.*
 - To go past working memory and retain knowledge, in the long run, I have to keep it in the working memory for an extended time. And build schemas and connections to it.
@@ -208,8 +208,6 @@ What's on trial is not just the weight of our opinions, but our entire understan
 - Nurture the topics I want to master
 - "Let it go" attitude to all stuff that seems fun but you don't really want to commit to it
 - *True freedom is impossible without a mind made free by discipline.*
-
-## Techniques to improve
 
 ### Recall
 

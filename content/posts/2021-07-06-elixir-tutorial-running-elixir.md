@@ -5,11 +5,9 @@ description: "Different ways of running Elixir"
 images:
 - images/featured/elixir-tutorial-running-elixir.png
 tags:
-  - Elixir
-  - The Elixir Tutorial
+  - elixir
+  - tutorial
 ---
-
-# for post <- 4..4, do: IO.puts "The Elixir Tutorial" 
 
 ![](https://media.giphy.com/media/YM5eNbWmIYqll3Ar3m/giphy.gif)
 
@@ -65,7 +63,7 @@ In `iex` shell session, you can insert any Elixir expression.
 
 To exit from `iex`, you need to press `Ctrl+c` twice.
 
-### iex tip
+## iex tip
 
 ![](https://media.giphy.com/media/Rk8CZk8M7UHzG/giphy.gif)
 
@@ -81,7 +79,7 @@ iex(1)> IO.puts("dssdsda
 ** (TokenMissingError) iex:1: incomplete expression
 ```
 
-### Defining and running modules in iex
+## Defining and running modules in iex
 
 Now let's create our first module. Modules allow you to group and "namespace" your functions.
 
@@ -618,7 +616,7 @@ There it is 🥳
 And just like that, we know different ways to run Elixir code.
 
 
-# "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
+## "The Elixir Tutorial" |> IO.inspect()
 
 1..4 -> [The Elixir Tutorial](/posts/2021-07-03-the-elixir-tutorial/)
 

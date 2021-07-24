@@ -5,8 +5,7 @@ description: "Learn the origins of the Elixir programming language..."
 images:
 - images/featured/elixir-the-documentary.png
 tags:
-  - Learning
-  - Elixir
+  - elixir
 ---
 
 {{< youtube lxYFOM3UJzo >}}
@@ -49,6 +48,7 @@ defmodule Hello do
   end
 end
 ```
+Then open a shell and run this amazing code.
 
 ```sh
 ➜  ~ iex --name bob --cookie "shared-secret"

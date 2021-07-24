@@ -5,11 +5,9 @@ description: "ASDF FTW"
 images:
 - images/featured/elixir-tutorial-install-elixir.png
 tags:
-  - Elixir
-  - The Elixir Tutorial
+  - elixir
+  - tutorial
 ---
-
-# for post <- 2..4, do: IO.puts "The Elixir Tutorial" 
 
 The first thing you need to start hacking with Elixir is ... well ... Elixir 😏.
 
@@ -148,7 +146,7 @@ Elixir 1.12.1 (compiled with Erlang/OTP 24)
 ![](https://media.giphy.com/media/43wsmkuWDuNQX78KwS/giphy.gif)
 
 
-# "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
+## "The Elixir Tutorial" |> IO.inspect()
 
 1..4 -> [The Elixir Tutorial](/posts/2021-07-03-the-elixir-tutorial/)
 

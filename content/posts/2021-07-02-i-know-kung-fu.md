@@ -5,8 +5,8 @@ description: "Finished Pragmatic Studio Elixir & OTP course"
 images:
 - images/featured/i-know-kung-fu.png
 tags:
-  - Learning
-  - Elixir
+  - learning
+  - elixir
 ---
 
 Today I completed the course [Elixir & OTP](https://pragmaticstudio.com/elixir#buy) from Pragmatic studio.

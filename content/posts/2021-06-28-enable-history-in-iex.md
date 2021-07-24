@@ -6,7 +6,7 @@ images:
 - images/featured/enable-history-in-iex.png
 tags:
   - iex
-  - Elixir
+  - elixir
 ---
 
 After spending some time in `iex`, you want to run a past command, especially from previous sessions.

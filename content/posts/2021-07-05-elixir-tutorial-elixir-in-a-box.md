@@ -5,11 +5,9 @@ description: "You don't need to install Elixir"
 images:
 - images/featured/elixir-tutorial-elixir-in-a-box.png
 tags:
-  - Elixir
-  - The Elixir Tutorial
+  - elixir
+  - tutorial
 ---
-
-# for post <- 3..4, do: IO.puts "The Elixir Tutorial" 
 
 ![](https://media.giphy.com/media/6AFldi5xJQYIo/giphy.gif)
 
@@ -69,8 +67,7 @@ And you are ready to go. For now I'll keep using Elixir locally on my Ubuntu, yo
 
 For reference: [Development environment for Elixir + Phoenix with Docker and Docker-compose](https://dev.to/hlappa/development-environment-for-elixir-phoenix-with-docker-and-docker-compose-2g17)
 
-
-# "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
+## "The Elixir Tutorial" |> IO.inspect()
 
 1..4 -> [The Elixir Tutorial](/posts/2021-07-03-the-elixir-tutorial/)
 

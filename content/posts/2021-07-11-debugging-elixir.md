@@ -5,9 +5,9 @@ description: 'Solving your own code commited crimes'
 images:
 - images/featured/debugging-elixir.png
 tags:
-  - Elixir
-  - Debugging
-  - VSCode
+  - elixir
+  - debugging
+  - vscode
 ---
 
 > Debugging is being the detective in crime movies where you are also the murderer.
@@ -18,7 +18,7 @@ Detectives have tools to help them. They can be old-fashioned Sherlock Holmes an
 
 You will indeed commit crimes 💩🐛 during development, so what tools does Elixir have to get your back?
 
-# Old school `IO.puts`
+## Old school _IO.puts_
 
 ![](https://media.giphy.com/media/3oEjHD20zWeDvGWoF2/giphy.gif)
 
@@ -34,7 +34,7 @@ iex(4)> IO.puts("------>" <> username)
 
 The problem with it is that we have to print a string or string-compatible format.
 
-# Old school with steroids `IO.inspect`
+## Old school with steroids _IO.inspect_
 
 ![](https://media.giphy.com/media/W4NvANl5jdrji/giphy.gif)
 
@@ -98,7 +98,7 @@ You can even add labels to help you during this kind of debugging:
 |> does_even_more_stuff()
 ```
 
-# `IEX.pry` magnifying glass
+## IEX.pry magnifying glass
 
 ![](https://media.giphy.com/media/l2JdZX7Fk0hqQGwzm/giphy.gif)
 
@@ -169,7 +169,7 @@ This approach is great but has some cons 😐:
 
 If you want to have multiple debug steps, add `require IEx; IEx.pry` for each, and continue to the next breakpoint.
 
-# IEx `break!` it out
+## IEx _break!_ it out
 
 ![](https://media.giphy.com/media/l2JdT10OBwXcl8g1O/giphy.gif)
 
@@ -222,7 +222,7 @@ pry(3)> respawn()
 
 We didn't need to change any line of our code to set the breakpoint, which is a lot better. 👌 You can also specify in break the number of times it will break.
 
-# Testing with `IEx.pry`
+## Testing with _IEx.pry_
 
 ![](https://media.giphy.com/media/l0G18t2rt94wUI6yc/giphy.gif)
 
@@ -239,7 +239,7 @@ This is because you are not inside an interactive shell session. Simple enough, 
 iex -S mix test
 ```
 
-# Avoiding timeouts ⏰
+## Avoiding timeouts ⏰
 
 ![](https://media.giphy.com/media/3o6MbjelZFV8tCVi5a/giphy.gif)
 
@@ -249,7 +249,7 @@ To avoid timeouts, run tests with the trace option:
 $ iex -S mix test --trace
 ```
 
-# VSCode and ElixirLS
+## VSCode and ElixirLS
 
 ![](https://media.giphy.com/media/3o7TKw6X7zBf3IbiPm/giphy.gif)
 

@@ -5,7 +5,8 @@ description: "Let's learn OTP Agent by building our own version."
 images:
 - images/featured/secret-agent.png
 tags:
-  - OTP
+  - elixir
+  - otp
 ---
 
 ![](https://media.giphy.com/media/3oz8xILeZl6jt78kXm/giphy.gif)
@@ -37,19 +38,19 @@ The Agent functions can be called anywhere in your safe deposit secret cracking 
 
 Anonymous functions are used to build, get and update state:
 
-**To create the initial version of state**
+## create the state's initial version
 
 ```elixir
 {:ok, pid} = Agent.start_link(fn -> [] end)
 ```
 
-**To get the current version of state**
+## Get the current version of state
 
 ```elixir
 Agent.get(pid, fn digits -> digits end)
 ```
 
-**To update the state**
+## Update the state
 
 ```elixir
 Agent.update(pid, fn digits -> digits ++ ["4"] end)

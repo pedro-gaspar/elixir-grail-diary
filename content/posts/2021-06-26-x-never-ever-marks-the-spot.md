@@ -5,7 +5,7 @@ description: 'Starting the path to re-learn Elixir'
 images:
 - images/featured/x-never-ever-marks-the-spot.png
 tags:
-  - Elixir
+  - elixir
 ---
 
 A couple months ago, scrolling in my Twitter feed, I came across a tweet from José Valim, the Brazilian developer rockstar 👨‍🎤 I greatly admire.

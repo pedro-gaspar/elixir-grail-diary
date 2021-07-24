@@ -5,11 +5,9 @@ description: "Learn by teaching."
 images:
 - images/featured/the-elixir-tutorial.png
 tags:
-  - Elixir
-  - The Elixir Tutorial
+  - elixir
+  - tutorial
 ---
-
-# for post <- 1..4, do: IO.puts "The Elixir Tutorial." 
 
 Richard Feynman is a known physicist that promoted the following learning technique, known as **The Feynman Technique**.
 
@@ -39,7 +37,7 @@ Subject to changes along the way.
 
 ![](https://media.giphy.com/media/03L3XIy2uKaLE5TIfG/giphy.gif)
 
-# "The Elixir Tutorial" | > Enum.map(&IO.puts/1)
+## "The Elixir Tutorial" |> IO.inspect()
 
 1..4 -> [The Elixir Tutorial](/posts/2021-07-03-the-elixir-tutorial/)
 

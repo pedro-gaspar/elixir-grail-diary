@@ -5,8 +5,8 @@ description: 'If you need it, give it a name.'
 images:
 - images/featured/til-named-captures.png
 tags:
-  - Elixir
-  - Today I Learned
+  - elixir
+  - til
 ---
 
 ![](https://media.giphy.com/media/6uPOdgLIuhHYQ/giphy.gif)

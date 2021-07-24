@@ -5,8 +5,8 @@ description: 'This will happen someday'
 images:
 - images/featured/til-improper-lists.png
 tags:
-  - Elixir
-  - Today I Learned
+  - elixir
+  - til
 ---
 
 ![](https://media.giphy.com/media/12rqBPpSz9jIA0/giphy.gif)

@@ -5,7 +5,7 @@ description: 'Coming from an object-oriented background, you will fall into some
 images:
 - images/featured/traps.png
 tags:
-  - Elixir
+  - elixir
 ---
 
 Coming from an object-oriented background, you will fall into some Elixir booby traps. 
@@ -16,7 +16,7 @@ I'll highlight some common ones where, I spent a few minutes looking at the scre
 
 It is pretty helpful to get familiar with error messages because you will see them a lot, especially during the initial days.
 
-# Single quotes aren't strings
+## Single quotes aren't strings
 
 In many languages you are used to use both double and single quotes. They both represent a string.
 So you will probably do something like:
@@ -105,7 +105,7 @@ iex(42)> [100000]
 ``` 
 
 
-# Changing variables inside if statements
+## Changing variables inside if statements
 
 You are used to doing something like this.
 
@@ -160,7 +160,7 @@ iex(2)> y
 This is a pretty good language decision. It enables you to refactor your code with more confidence.
 
 
-# Variables rebind when pattern matched
+## Variables rebind when pattern matched
 
 Variables are kind of left-handed. They are very _"dynamic"_, and change value a lot on the left side of the **=** and pretty _"static"_ on the right side.
 
@@ -234,7 +234,7 @@ case y do
 end
 ```
 
-# Maps aren't objects
+## Maps aren't objects
 
 If you use dicts in python you will probably do something like this:
 
@@ -278,7 +278,7 @@ iex(4)> Enum.at(y, 2)
 3
 ```
 
-# for is not the for you know
+## _for_ is not the for you know
 
 Let's do a for loop 3 times and change a map's value.
 
@@ -350,7 +350,7 @@ iex(13)> Works.with_recursion()
 %{x: 3}
 ```
 
-# Updating maps
+## Updating maps
 
 Now let's try to change a map value.
 
@@ -384,7 +384,7 @@ iex(4)> looks_like_a_python_dict = Map.put(looks_like_a_python_dict, "y", 1)
 ```
 
 
-# strings are not arrays of chars
+## strings are not arrays of chars
 
 Whenever you want a specific char of a string you are used to the index syntax:
 
@@ -429,7 +429,7 @@ iex(3)> x_marks_the_spot |> String.at(1)
 "X"
 ```
 
-# lists are not arrays
+## lists are not arrays
 
 When you ear lists, coming from other languages you will think of arrays. So you will probably try something like:
 

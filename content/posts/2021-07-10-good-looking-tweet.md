@@ -5,8 +5,8 @@ description: "Make your blog posts look better on Twitter."
 images:
 - images/featured/twitter.jpeg
 tags:
-  - Hugo
-  - Twitter
+  - hugo
+  - twitter
 ---
 
 When I was posting these blog post URLs in my Twitter feed, they seemed a bit wishy-washy.
