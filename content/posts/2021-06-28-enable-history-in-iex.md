@@ -10,7 +10,8 @@ tags:
 ---
 
 After spending some time in `iex`, you want to run a past command, especially from previous sessions.
-Being used to `irb` or `ipython`, you are used to hitting the up arrow. But, and nothing happens...
+Being used to `irb` or `ipython`, you are used to hitting the up arrow.  
+But, and nothing happens...
 
 ![](https://media.giphy.com/media/oziNormWuA6JrnbzY8/giphy.gif)
 
