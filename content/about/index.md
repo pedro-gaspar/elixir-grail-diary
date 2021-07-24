@@ -1,15 +1,10 @@
 ---
 title: About me
-date: 2021-06-28 17:51:42
 ---
 
 👨‍💻 Software Engineer 👪 Father 🧙 Geek 👨‍🏫 Learner 
 
-----
-
 ![Me](/images/me.jpeg)
-
-## About me
 
 Hello, my friend, my name is Pedro. 👋
 
@@ -41,8 +36,8 @@ I'm the father of two small 👧👧 that I'm trying to help grow and become ama
 
 ## You can find me in...
 
-Github:  [pedro-gaspar](https://github.com/pedro-gaspar)
+**Github:**  [pedro-gaspar](https://github.com/pedro-gaspar)
 
-Twitter: [@_pedro_gaspar](https://twitter.com/_pedro_gaspar)
+**Twitter:** [@_pedro_gaspar](https://twitter.com/_pedro_gaspar)
 
-LinkedIn:  [pedromiggaspar](https://www.linkedin.com/in/pedromiggaspar/)
+**LinkedIn:**  [pedromiggaspar](https://www.linkedin.com/in/pedromiggaspar/)

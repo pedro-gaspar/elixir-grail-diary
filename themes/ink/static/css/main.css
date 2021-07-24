@@ -1,16 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap");
-
 body {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "STIX Two Math", sans-serif;
   font-weight: 400;
   color: #333;
-  line-height: 1.8em;
-  font-size: 1em;
+  line-height: 1.6em;
+  font-size: 1.1em;
   background-color: #f2eecb;
+  font-smooth: auto;
 }
 
 a {
-  color: #7851a9;
+  color: #9375fd;
   text-decoration: none;
   word-break: break-word;
 }
@@ -42,7 +41,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #9f8893;
   margin: 1rem 0;
   padding: 0;
 }
@@ -132,13 +131,14 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Cinzel Decorative", cursive;
   color: #333;
   font-weight: 500;
   line-height: 1.3em;
   margin: 30px 0 20px 0;
 }
 
-h1 {
+h1.title {
   font-size: 2rem;
 }
 
@@ -184,7 +184,7 @@ ul.flat {
 }
 
 ul.flat li {
-  display: block;
+  display: inline-block;
   list-style: none;
   margin-left: 0;
 }
@@ -234,6 +234,7 @@ ul {
 .header {
   margin-bottom: 20px;
   padding-bottom: 20px;
+  color: #302655;
 }
 
 .header .avatar {
@@ -250,7 +251,7 @@ ul {
   margin: 0;
 }
 .site-title a {
-  color: #333;
+  color: #302655;
   text-decoration: none !important;
 }
 .site-title a:hover {
@@ -266,8 +267,9 @@ ul {
 }
 
 .header nav {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #9f8893;
   padding-top: 15px;
+  font-family: "Cinzel Decorative", cursive;
 }
 
 .header nav ul,
@@ -286,6 +288,10 @@ ul {
 }
 .header nav.social a:hover {
   color: #7851a9;
+}
+
+.header .site-description p {
+  font-style: italic;
 }
 
 .header .site-description nav {
@@ -333,6 +339,7 @@ ul {
 
 .post-header {
   display: flex;
+  color: #333;
 }
 .post-header .meta .date {
   margin-right: 30px;
@@ -340,7 +347,7 @@ ul {
   text-align: center;
 }
 .post-header .meta .date .day {
-  font-family: "Playfair Display", serif;
+  font-family: "Cinzel Decorative", serif;
   font-weight: 700;
   line-height: 0.45em;
   font-size: 3em;
@@ -371,6 +378,11 @@ ul {
   background-color: #f9f2f4;
 }
 
+.post .tags {
+  margin-top: 2rem;
+  text-transform: lowercase;
+}
+
 .post .tags a {
   display: inline-block;
   border: 1px solid #7851a9;
@@ -381,6 +393,7 @@ ul {
   font-size: 0.85em;
   text-decoration: none;
   margin: 0 10px 0 0;
+  background-color: #ddd;
 }
 
 .list .posts .post-header .meta {
@@ -392,9 +405,9 @@ ul {
   text-align: right;
   font-size: 0.75em;
   color: #999;
-  border-top: 1px solid #f4f4f4;
+  border-top: 1px solid #9f8893;
   margin-top: 40px;
-  padding: 15px 0;
+  max-width: 800px;
 }
 .footer a {
   color: #666;
@@ -492,4 +505,44 @@ ul {
     font-size: 0.875em;
     line-height: 1.4em;
   }
+}
+
+code {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+img {
+  border: 1px solid #333;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.avatar img {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.highlight {
+  border: 1px solid #000;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.highlight pre {
+  padding: 10px;
+}
+
+ul.flat li.post {
+  display: block;
+}
+
+ul.flat li.post .post-header,
+.posts .post .post-header {
+  color: #333;
 }

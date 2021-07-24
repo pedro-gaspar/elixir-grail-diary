@@ -6,13 +6,13 @@ html.dark body {
 html.dark ::-moz-selection {
   background: #9375fd;
   color: #fff;
-  text-shadow: none
+  text-shadow: none;
 }
 
 html.dark ::selection {
   background: #9375fd;
   color: #fff;
-  text-shadow: none
+  text-shadow: none;
 }
 
 html.dark hr {
@@ -32,7 +32,8 @@ html.dark h6 {
   color: #ddd;
 }
 
-html.dark a,a:hover {
+html.dark a,
+a:hover {
   color: #9375fd;
   text-decoration: none;
 }
@@ -66,6 +67,44 @@ html.dark .footer {
   border-color: #333;
 }
 
+html.dark .post-header {
+  color: #ddd;
+}
+
+html.dark img {
+  border-color: #333;
+  box-shadow: 0 1px 1px rgba(51, 51, 51, 0.12), 0 2px 2px rgba(51, 51, 51, 0.12),
+    0 4px 4px rgba(51, 51, 51, 0.12), 0 8px 8px rgba(51, 51, 51, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+html.dark .avatar img {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 html.dark .highlight {
-  background-color: #333;
+  border-color: #333;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(51, 51, 51, 0.12), 0 2px 2px rgba(51, 51, 51, 0.12),
+    0 4px 4px rgba(51, 51, 51, 0.12), 0 8px 8px rgba(51, 51, 51, 0.12),
+    0 16px 16px rgba(51, 51, 51, 0.12);
+}
+
+html.dark .post .tags a {
+  background-color: #000;
+}
+
+html.darkul.flat li.post .post-header,
+html.dark .posts .post .post-header {
+  color: #ddd;
+}
+
+html.dark .header {
+  color: #bbb;
+}
+
+html.dark .header .site-title a {
+  color: #bbb;
 }
