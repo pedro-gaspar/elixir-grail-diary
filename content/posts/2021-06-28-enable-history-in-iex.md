@@ -21,7 +21,7 @@ For that to work, add the following to your `.zshrc` or `.bashrc`
 export ERL_AFLAGS="-kernel shell_history enabled"
 ```
 
-And since the default history size is _512KB_, let's increase it.
+And since the default history size is `512KB`, let's increase it.
 
 ```sh
 export ERL_AFLAGS="-kernel shell_history enabled -kernel shell_history_file_bytes 1024000"
