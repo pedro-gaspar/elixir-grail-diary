@@ -3,7 +3,7 @@ title: Stream is cool, but...
 date: 2021-07-26
 description: "Use it wisely. For some use cases, it is a lot worse."
 images:
-- images/featured/stream.png
+- images/featured/elixir-streams.png
 tags:
   - elixir
 ---
