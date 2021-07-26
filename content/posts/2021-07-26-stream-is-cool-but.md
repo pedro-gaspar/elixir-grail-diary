@@ -19,7 +19,7 @@ for (let i = 0; i < 2000; i += 2) {
 }
 ```
 
-Now let's try to do the same with Elixir. The first attempt, since you used `for` in javascript, let's use a list comprehension:
+Now let's try to do the same with Elixir. The first attempt, since I used `for` in javascript, let's use a list comprehension:
 
 ```elixir
 for n <- 0..2000, rem(n, 2) == 0, do: n
