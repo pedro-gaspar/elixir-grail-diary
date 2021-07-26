@@ -29,38 +29,38 @@ Seems kind of dumb to have to do the filter.
 
 Wait, we have that shinny [Stream](https://hexdocs.pm/elixir/1.12/Stream.html) that allows you to build infinite lists.
 
+Stream is very cool. Due to their laziness, streams are helpful when working with large (or even infinite) lists.  
+
 
 ```elixir
-Stream.iterate(0, &(&1 + 2)) |> Enum.take_while(&(&1 <= 2000))
+some_big_list |> Stream.map(...) |> Stream.map(...) |> Enum.sum()
+```
+
+For pipelines where you do lots of transformations it will for sure be helpful. Let's use it here.
+
+
+```elixir
+Stream.iterate(0, &(&1 + 2)) |> Stream.take_while(&(&1 <= 2000)) |> Enum.to_list()
 ```
 
 ![](https://media.giphy.com/media/NaboQwhxK3gMU/giphy.gif)
 
 Easy peasy, lemmon squeezy. Now let's try it with a really big list:
 
-```elixir
-Stream.iterate(0, &(&1 + 2)) |> Enum.take_while(&(&1 <= 2000000))
+> But at what cost?
 
+```elixir
+Stream.iterate(0, &(&1 + 2)) |> Stream.take_while(&(&1 <= 2000000)) |> Enum.to_list()
 ```
 Weird, it seemed a bit slow. So let's make it even more significant.
 
 ![](https://media.giphy.com/media/vMbC8xqhIf9ny/giphy.gif)
 
 ```elixir
-Stream.iterate(0, &(&1 + 2)) |> Enum.take_while(&(&1 <= 20000000))
+Stream.iterate(0, &(&1 + 2)) |> Stream.take_while(&(&1 <= 20000000)) |> Enum.to_list()
 ```
 
-Stream is very cool. Due to their laziness, streams are helpful when working with large (or even infinite) lists.  
-
-For pipelines where you do lots of transformations it will for sure be helpful:
-
-```elixir
-some_big_list |> Stream.map(...) |> Stream.map(...) |> Enum.sum()
-```
-
-> But it comes with a cost.
-
-But for our use case, it looks slow, really slow. How slow, you might ask. So instead of following gut feelings, let's benchmark it.
+For our use case, it looks slow, really slow. How slow, you might ask. So instead of following gut feelings, let's benchmark it.
 
 ```sh
 $ mix new big_list
@@ -255,7 +255,8 @@ Stream starts to really shine. Not being eager and processing results, one at a 
 When I started doing this little investigation, I wasn't expecting some findings. First, Enum with filter is a lot slower than a comprehension with a filter. I was expecting it to be very similar. Need to find out why.
 
 Streams are better suited for larger pipelines and aren't the best tool for many use cases.
-Like everything in engineering, it's a matter of choosing the most cost-effective, fastest solution. And at the end...
-You need to choose wisely.
+Like everything in engineering, it's a matter of choosing the most cost-effective, fastest and elegant solution. 
+
+And at the end... You need to choose wisely.
 
 ![](https://media.giphy.com/media/ZgYBhq1x7L1bW/giphy.gif)
