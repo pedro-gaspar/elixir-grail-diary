@@ -31,7 +31,7 @@ To reach the **Holy Grail of Elixir** I need to slowly find clues and build a ma
 
 ### II - Exercism
 
-Doing a couple of exercises a day on the Exercism [Elixir track](https://exercism.io)  - 85% main track, 51/81 side exercises(Doing 🤓)
+Doing a couple of exercises a day on the Exercism [Elixir track](https://exercism.io)  - 100% main track (13 exercises), 81/81 side exercises(Done 🥳)
 
 ### III - Elixir Grail Diary
 
@@ -48,15 +48,19 @@ Write 2/3 blog posts to learn in the open by sharing while you learn. (Doing �
 
 [Mastering Elixir](https://www.packtpub.com/eu/application-development/mastering-elixir)
 
-### VII - Phoenix LiveView
+### VII - Testing Elixir
+
+[Testing Elixir](https://pragprog.com/titles/lmelixir/testing-elixir/)
+
+### VIII - Phoenix LiveView
 
 [Phoenix LiveView](https://pragmaticstudio.com/phoenix-liveview)
 
-### VIII - Clone wars -> eliXly
+### IX - Clone wars -> eliXly
 
 Build and deploy a bitly clone.
 
-### IX - Clone wars -> eliXlack
+### X - Clone wars -> eliXlack
 
 Build a slack clone where messages take a random amount of time to appear.
 
