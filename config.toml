@@ -11,7 +11,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = "G-9ESSW7QXWF"
+# googleAnalytics = "G-9ESSW7QXWF"
 # disqusShortname = "ink-demo"
 
 [params]
