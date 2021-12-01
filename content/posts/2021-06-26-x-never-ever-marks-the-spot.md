@@ -19,7 +19,7 @@ Coming from a Ruby on Rails background, it seemed incredible. All the goodies of
 
 > &micro; seconds ... micro ... MICRO SEEEECONDS 😱
 
-So I started to learn a bit about it, and for that, I followed a path similar to Rails. First, learn the framework and then learn the language. So I bought **Programming Phoenix** and started speed reading it. With the help of the book, I built a couple of small projects and was really enjoying it a lot. 😍
+After attending a Ruby conference, I started to learn a bit about it, and for that, I followed a path similar to Rails. First, learn the framework and then learn the language. So I bought **Programming Phoenix** and started speed reading it. With the help of the book, I built a couple of small projects and was really enjoying it a lot. 😍
 
 ![Programming Phoenix](https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/phoenix14_hu6d5b8b63a4954cb696e89b39f929331b_925363_500x0_resize_q75_box.jpg)
 
