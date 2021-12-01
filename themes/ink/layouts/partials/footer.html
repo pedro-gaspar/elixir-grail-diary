@@ -1,18 +1,9 @@
 <div class="footer wrapper">
-	<nav class="nav">
-		<div>{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . | safeHTML }} {{ end }}</div>
-	</nav>
+  <nav class="nav">
+    <div>{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . | safeHTML }} {{ end }}</div>
+  </nav>
 </div>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ESSW7QXWF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-9ESSW7QXWF');
-</script>
 {{- with .Site.Params.Social -}}
 <script>feather.replace()</script>
 {{- end -}}
